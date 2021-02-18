@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Land in login page after logout
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.263 s - in Land in login page after logout

@@ -1,0 +1,114 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-18T14:36:05.138Z",
+        "line": 4,
+        "name": "login as a client user",
+        "description": "",
+        "id": "land-in-login-page-after-logout;login-as-a-client-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4232997700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user in on the login page",
+            "match": {
+              "location": "com.crm.step_definitions.LogOutStepDefs.the_user_in_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4104433100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user logs in using credentials",
+            "match": {
+              "location": "com.crm.step_definitions.LogOutStepDefs.the_user_logs_in_using_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14960400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user should be able to login",
+            "match": {
+              "location": "com.crm.step_definitions.LogOutStepDefs.the_user_should_be_able_to_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-18T14:36:13.499Z",
+        "line": 9,
+        "name": "Logout from website",
+        "description": "",
+        "id": "land-in-login-page-after-logout;logout-from-website",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 497669200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user click on the logout",
+            "match": {
+              "location": "com.crm.step_definitions.LogOutStepDefs.the_user_click_on_the_logout()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12965200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user should be able to land in login page",
+            "match": {
+              "location": "com.crm.step_definitions.LogOutStepDefs.the_user_should_be_able_to_land_in_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Land in login page after logout",
+    "description": "",
+    "id": "land-in-login-page-after-logout",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/LogOut.feature",
+    "tags": [
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
