@@ -35,6 +35,7 @@ public class LogOutStepDefs {
 
     @When("the user click on the logout")
     public void the_user_click_on_the_logout() {
+        BrowserUtils.waitForPageToLoad(2);
       new MainPage().userBlock.click();
       new MainPage().logOut.click();
     }
